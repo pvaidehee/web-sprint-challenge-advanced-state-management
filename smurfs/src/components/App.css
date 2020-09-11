@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+.smurfform input{
+  margin: 16px 0;
+  height:30px;
+  border:2px solid black;
+}
+button{
+  height:25px;
+  border-radius:20%;
+  background-color: greenyellow;
+}
+
+h1{
+  color: orange;
+}
+h2{
+  color: salmon;
+}
+h3{
+  color:pink;
+}

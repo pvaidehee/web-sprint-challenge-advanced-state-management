@@ -18,8 +18,8 @@ const SmurfForm = (props) => {
         setNewSmurf({...newSmurf, [name]: e.target.value})
     };
     return (
-        <div className="smurfform">
-            <form>
+        <div className="smurfdiv">
+            <form className="smurfform">
                 <input
                 name="name"
                 type="text"
