@@ -35,4 +35,4 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = {
     getSmurfs
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Smurfs);
+export default connect(mapStateToProps, mapDispatchToProps)(Smurfs); 

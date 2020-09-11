@@ -31,4 +31,4 @@ export const postSmurf = smurfs => dispatch => {
             })
         })
         .catch((error) => console.log(error))
-} 
+}

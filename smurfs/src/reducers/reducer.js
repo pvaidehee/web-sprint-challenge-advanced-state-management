@@ -31,4 +31,4 @@ switch(action.type) {
                 default: console.log("default case")
                 return state;
 };
-} 
+}
