@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {getSmurfs} from '../actions/action';
 import SmurfCard from "./SmurfCard";
+import SmurfForm from './SmurfForm';
 
 const Smurfs = props => {
  const fetchSmurfs = e => {
@@ -23,6 +24,7 @@ console.log(props.smurfs)
          </div>
          {props.error && <p className="error">{props.error}</p>}
          <button onClick={fetchSmurfs}>Get the Smurfs!</button>
+         <SmurfForm/>
      </div>
  );
 };
