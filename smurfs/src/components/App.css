@@ -1,5 +1,11 @@
 .App{
   text-align: center;
+  margin:20px 0;
+  border:3px solid purple;
+  width:30%;
+  margin-left: 35%;
+  background-color:lightcyan;
+  padding-bottom: 10px;
 }
 
 .smurfform input{
